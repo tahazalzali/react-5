@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
 
+import DISHES from './shared/dishes';
+import CardDish from './CardDish';
+
+import Header from './Header';
+import Footer from './Footer';
+import Switches from './Swithces'
+import { Provider } from "react-redux";
+import About from './Aboutus'
+import MediaRender from './MediaRender'
+import {ConfigureStore} from './redux/configureStore'
+import {BrowserRouter} from 'react-router-dom'
+import Contact from './ContactComponent';
+
+const store=ConfigureStore();
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+  <Provider store ={store}>
+    <BrowserRouter>
+    <Header/>
+  
+    <CardDish/>
+    <Switches/>
+    <About />
+   <MediaRender/>
+   <Contact/>
+    <Footer/>
+    </BrowserRouter>
+    </Provider>
     </div>
   );
 }
