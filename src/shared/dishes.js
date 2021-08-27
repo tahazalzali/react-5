@@ -21,7 +21,7 @@ const DISHES = [
     {
         id: 1,
         name: 'Zucchipakoda',
-        image: 'assets/images/zucchipakoda.png',
+        image: 'assets/images/85.png',
         category: 'appetizer',
         label: '',
         price: '1.99',
