@@ -2,7 +2,7 @@ const DISHES = [
     {
         id: 0,
         name: 'Uthappizza',
-        image: 'assets/images/uthappizza.png',
+        image: 'https://tahazalzali.github.io/react-5/assets/images/uthappizza.png',
         category: 'mains',
         label: 'Hot',
         price: '4.99',
@@ -21,7 +21,7 @@ const DISHES = [
     {
         id: 1,
         name: 'Zucchipakoda',
-        image: 'assets/images/85.png',
+        image: 'https://tahazalzali.github.io/react-5/assets/images/zucchipakoda.png',
         category: 'appetizer',
         label: '',
         price: '1.99',
@@ -40,7 +40,7 @@ const DISHES = [
     {
         id: 2,
         name: 'Vadonut',
-        image: '../../assets/images/vadonut.png',
+        image: 'https://tahazalzali.github.io/react-5/assets/images/vadonut.png',
         category: 'appetizer',
         label: 'New',
         price: '1.99',
@@ -59,7 +59,7 @@ const DISHES = [
     {
         id: 3,
         name: 'ElaiCheese Cake',
-        image: 'assets/images/elaicheesecake.png',
+        image: 'https://tahazalzali.github.io/react-5/assets/images/elaicheesecake.png',
         category: 'dessert',
         label: '',
         price: '2.99',

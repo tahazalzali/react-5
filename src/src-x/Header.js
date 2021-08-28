@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Logo from '../../public/assets/'
 import {Navbar , NavbarBrand,Jumbotron} from 'reactstrap'
 class Header extends Component{
 constructor(){
@@ -9,6 +8,7 @@ constructor(){
     }
 }
     render(){
+//create a function that displays the image after building the app
 
 return(    
     <>
